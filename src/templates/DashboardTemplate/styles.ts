@@ -8,3 +8,7 @@ export const ContainerMain = styled.main`
     margin: 1rem 0 1rem;
   }
 `;
+export const Container = styled.div`
+  width: 60rem;
+  height: 60rem;
+`;
