@@ -4,7 +4,6 @@ import GeneralAnalysisOfOrders from "../../components/GeneralAnalysisOfOrders";
 import HeaderDashboard from "../../components/HeaderDashboard";
 
 import * as Styles from "./styles";
-import CircleDashboard from "../../components/CircleDashboard";
 
 const register = {
   nome: "BRUNA SCARENSE LEITE DE OLIVEIRA",
