@@ -1,10 +1,14 @@
 import React from "react";
-import Layout from "../../components/Layout";
+import HeaderDashboard from "../../components/HeaderDashboard";
 
 import * as Styles from "./styles";
 
 const DashboardTemplate = () => {
-  return <Layout>Helo</Layout>;
+  return (
+    <Styles.ContainerMain>
+      <HeaderDashboard />
+    </Styles.ContainerMain>
+  );
 };
 
 export default DashboardTemplate;
