@@ -1,10 +1,10 @@
 import Layout from "../../components/Layout";
-import DashboardTemplate from "../../templates/DashboardTemplate/index";
+import DeshbordTemplate from "../../templates/DeshbordTemplate/index";
 
 const Dashbord = () => {
   return (
     <Layout>
-      <DashboardTemplate />
+      <DeshbordTemplate />
     </Layout>
   );
 };

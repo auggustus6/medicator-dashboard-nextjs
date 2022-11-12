@@ -11,9 +11,8 @@ import {
 } from "chart.js";
 
 import * as Styles from "./styles";
-import CircleDashboard from "../../components/CircleDashboard";
 
-const DashboardTemplate = () => {
+const HomeTemplate = () => {
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -43,11 +42,10 @@ const DashboardTemplate = () => {
               responsive: true,
             }}
           />
-          <CircleDashboard />
         </Styles.Container>
       </Styles.ContainerMain>
     </Layout>
   );
 };
 
-export default DashboardTemplate;
+export default HomeTemplate;
