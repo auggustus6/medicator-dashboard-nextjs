@@ -22,4 +22,4 @@ const DashboardTemplate = () => {
   );
 };
 
-export default DashboardTemplate;
+export default HomeTemplate;
