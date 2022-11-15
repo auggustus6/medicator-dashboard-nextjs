@@ -6,7 +6,16 @@ export const ClientApprovedCard = styled.div`
     border-radius: 8px;
     padding: 1rem;
     flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column; ;
   `}
+`;
+
+export const ContainerPieClient = styled.div`
+  max-width: 40rem;
+  width: 100%;
+  padding-top: 4rem;
 `;
 
 export const Content = styled.div`
