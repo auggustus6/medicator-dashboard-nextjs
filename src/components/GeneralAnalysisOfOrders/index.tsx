@@ -1,11 +1,19 @@
-import LineChart from "../LineChart";
+import ApprovedCustomers from "../ApprovedCustomers";
+import ApprovedFormulasCard from "../ApprovedFormulasCard";
 import TotalRecipesCard from "../TotalRecipesCard";
+
 import * as Styles from "./styles";
 
 const GeneralAnalysisOfOrders = () => {
   return (
     <Styles.Teste>
-      <TotalRecipesCard />
+      <Styles.LineOne>
+        <TotalRecipesCard />
+        <ApprovedFormulasCard />
+      </Styles.LineOne>
+      <Styles.LineTwo>
+        <ApprovedCustomers />
+      </Styles.LineTwo>
     </Styles.Teste>
   );
 };

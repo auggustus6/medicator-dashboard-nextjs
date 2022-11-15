@@ -4,8 +4,10 @@ export const ContainerTotal = styled.div`
   ${({ theme }) => css`
     border: 1px solid ${theme.colors.grayLigth};
     border-radius: 8px;
-    max-width: 70rem;
     padding: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
   `}
 `;
 
