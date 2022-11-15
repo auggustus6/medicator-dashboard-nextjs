@@ -51,8 +51,8 @@ export const data = {
   ],
 };
 
-const Teste = () => {
+const LineChart = () => {
   return <Line options={options} data={data} />;
 };
 
-export default Teste;
+export default LineChart;
