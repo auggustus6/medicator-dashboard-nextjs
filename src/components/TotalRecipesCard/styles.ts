@@ -8,6 +8,9 @@ export const ContainerTotal = styled.div`
     flex: 1;
     flex-direction: column;
     padding: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
   `}
 `;
 
