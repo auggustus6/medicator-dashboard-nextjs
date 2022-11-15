@@ -12,5 +12,6 @@ export const LineOne = styled.div`
 `;
 
 export const LineTwo = styled.div`
+  gap: 1rem;
   display: flex;
 `;

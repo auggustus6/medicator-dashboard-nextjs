@@ -1,5 +1,6 @@
 import ApprovedCustomers from "../ApprovedCustomers";
 import ApprovedFormulasCard from "../ApprovedFormulasCard";
+import PieChart from "../PieChart";
 import TotalRecipesCard from "../TotalRecipesCard";
 
 import * as Styles from "./styles";
@@ -13,6 +14,7 @@ const GeneralAnalysisOfOrders = () => {
       </Styles.LineOne>
       <Styles.LineTwo>
         <ApprovedCustomers />
+        <TotalRecipesCard />
       </Styles.LineTwo>
     </Styles.Teste>
   );

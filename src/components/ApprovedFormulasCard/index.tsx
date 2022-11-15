@@ -1,3 +1,4 @@
+import PieChart from "../PieChart";
 import * as Styles from "./styles";
 
 const ApprovedFormulasCard = () => {
@@ -17,6 +18,9 @@ const ApprovedFormulasCard = () => {
           <p>111</p>
         </Styles.Rejected>
       </Styles.CardHeader>
+      <Styles.ContainerPie>
+        <PieChart />
+      </Styles.ContainerPie>
     </Styles.CardApproved>
   );
 };

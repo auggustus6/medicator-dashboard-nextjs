@@ -1,4 +1,4 @@
-import Teste from "../Teste";
+import LineChart from "../LineChart";
 import * as Styles from "./styles";
 
 const TotalRecipesCard = () => {
@@ -9,7 +9,7 @@ const TotalRecipesCard = () => {
         <p>460</p>
       </Styles.ContentRecipes>
       <h3>EVOLUÇÃO DIÁRIA</h3>
-      <Teste />
+      <LineChart />
     </Styles.ContainerTotal>
   );
 };

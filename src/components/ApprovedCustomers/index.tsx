@@ -1,3 +1,4 @@
+import PieChart from "../PieChart";
 import * as Styles from "./styles";
 
 const ApprovedCustomers = () => {
@@ -13,6 +14,9 @@ const ApprovedCustomers = () => {
           <p>10</p>
         </Styles.PartiallyApproved>
       </Styles.Content>
+      <Styles.ContainerPieClient>
+        <PieChart />
+      </Styles.ContainerPieClient>
     </Styles.ClientApprovedCard>
   );
 };
