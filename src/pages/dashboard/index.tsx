@@ -1,11 +1,7 @@
 import DashboardTemplate from "../../templates/DashboardTemplate/index";
 
 const Dashboard = () => {
-  return (
-    <>
-      <DashboardTemplate />
-    </>
-  );
+  return <DashboardTemplate />;
 };
 
 export default Dashboard;
