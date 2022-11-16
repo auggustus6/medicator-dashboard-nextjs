@@ -6,7 +6,9 @@ import {
 } from "styled-components";
 
 type GlobalStylesProps = {
-  removeBg?: boolean;
+  theme: {
+    removeBg?: boolean;
+  }
 };
 
 const GlobalStyles: GlobalStyleComponent<

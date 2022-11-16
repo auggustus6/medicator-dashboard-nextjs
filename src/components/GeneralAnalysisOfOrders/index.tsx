@@ -1,6 +1,5 @@
 import ApprovedCustomers from "../ApprovedCustomers";
 import ApprovedFormulasCard from "../ApprovedFormulasCard";
-import PieChart from "../PieChart";
 import TotalRecipesCard from "../TotalRecipesCard";
 
 import * as Styles from "./styles";

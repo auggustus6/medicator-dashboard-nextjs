@@ -5,11 +5,7 @@ type PropsTitle = {
 };
 
 const Title = ({ title }: PropsTitle) => {
-  return (
-    <Styles.Title>
-      <h1>{title}</h1>
-    </Styles.Title>
-  );
+  return <h1>{title}</h1>;
 };
 
 export default Title;

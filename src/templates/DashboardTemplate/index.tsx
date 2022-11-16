@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../../components/Title";
+import Title from "../../components/Labels/Title";
 import GeneralAnalysisOfOrders from "../../components/GeneralAnalysisOfOrders";
 import HeaderDashboard from "../../components/HeaderDashboard";
 
