@@ -52,7 +52,7 @@ export const data = {
 };
 
 const LineChart = () => {
-  return <Line options={options} data={data} />;
+  return <Line data={data} />;
 };
 
 export default LineChart;
