@@ -8,14 +8,15 @@ export const ClientApprovedCard = styled.div`
     flex: 1;
     display: flex;
     align-items: center;
-    flex-direction: column; ;
+    flex-direction: column;
+    justify-content: center;
   `}
 `;
 
 export const ContainerPieClient = styled.div`
-  max-width: 40rem;
+  max-width: 30rem;
   width: 100%;
-  padding-top: 4rem;
+  margin-top: 4rem;
 `;
 
 export const Content = styled.div`

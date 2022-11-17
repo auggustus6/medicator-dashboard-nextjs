@@ -1,5 +1,3 @@
-import * as Styles from "./styles";
-
 type PropsTitle = {
   title: string;
 };

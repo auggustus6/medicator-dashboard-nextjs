@@ -9,6 +9,7 @@ export const CardApproved = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   `}
 `;
 
@@ -20,9 +21,9 @@ export const CardHeader = styled.div`
 `;
 
 export const ContainerPie = styled.div`
-  max-width: 40rem;
+  max-width: 30rem;
   width: 100%;
-  padding-top: 4rem;
+  margin-top: 4rem;
 `;
 
 export const Aproved = styled.div`

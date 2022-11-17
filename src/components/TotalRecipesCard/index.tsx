@@ -9,7 +9,9 @@ const TotalRecipesCard = () => {
         <p>460</p>
       </Styles.ContentRecipes>
       <h3>EVOLUÇÃO DIÁRIA</h3>
-      <LineChart />
+      <Styles.ContainerLineChart>
+        <LineChart />
+      </Styles.ContainerLineChart>
     </Styles.ContainerTotal>
   );
 };

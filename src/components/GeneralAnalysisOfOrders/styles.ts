@@ -6,12 +6,7 @@ export const Teste = styled.div`
   flex-direction: column;
 `;
 
-export const LineOne = styled.div`
+export const LineFlex = styled.div`
   display: flex;
   gap: 1rem;
-`;
-
-export const LineTwo = styled.div`
-  gap: 1rem;
-  display: flex;
 `;

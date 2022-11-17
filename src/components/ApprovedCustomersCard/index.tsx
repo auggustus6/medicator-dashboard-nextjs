@@ -1,7 +1,7 @@
 import PieChart from "../PieChart";
 import * as Styles from "./styles";
 
-const ApprovedCustomers = () => {
+const ApprovedCustomersCard = () => {
   return (
     <Styles.ClientApprovedCard>
       <Styles.Content>
@@ -21,4 +21,4 @@ const ApprovedCustomers = () => {
   );
 };
 
-export default ApprovedCustomers;
+export default ApprovedCustomersCard;
