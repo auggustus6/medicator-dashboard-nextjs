@@ -21,10 +21,9 @@ export const ContentRecipes = styled.div`
 `;
 
 export const ContainerLineChart = styled.div`
+  max-width: 50rem;
+  width: 100%;
   display: flex;
   align-self: center;
-  flex: 1;
-  max-width: 70rem;
-  width: 100%;
   margin-top: 1rem;
 `;

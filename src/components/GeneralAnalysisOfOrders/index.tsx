@@ -1,4 +1,5 @@
 import ActiveCitiesRejectedCard from "../ActiveCitiesRejectedCard";
+import ApprovedCitiesCard from "../ApprovedCitiesCard/idenx";
 import ApprovedCustomersCard from "../ApprovedCustomersCard";
 import ApprovedFormulasCard from "../ApprovedFormulasCard";
 import TotalRecipesCard from "../TotalRecipesCard";
@@ -18,6 +19,7 @@ const GeneralAnalysisOfOrders = () => {
       </Styles.LineFlex>
       <Styles.LineFlex>
         <ActiveCitiesRejectedCard />
+        <ApprovedCitiesCard />
       </Styles.LineFlex>
     </Styles.Teste>
   );
