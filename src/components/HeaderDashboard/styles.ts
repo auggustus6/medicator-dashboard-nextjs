@@ -5,6 +5,10 @@ export const HeaderDashboard = styled.header`
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+
+  @media (max-width: 1040px) {
+    flex-direction: column;
+  }
 `;
 
 export const CityAndMonth = styled.div`

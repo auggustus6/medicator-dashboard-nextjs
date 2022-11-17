@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Teste = styled.div`
+export const GeneralAnalysisOfOrders = styled.div`
   display: flex;
   flex-direction: column;
 `;

@@ -2,13 +2,16 @@ import ActiveCitiesRejectedCard from "../ActiveCitiesRejectedCard";
 import ApprovedCitiesCard from "../ApprovedCitiesCard/idenx";
 import ApprovedCustomersCard from "../ApprovedCustomersCard";
 import ApprovedFormulasCard from "../ApprovedFormulasCard";
+import GeneralSalesCard from "../GeneralSalesCard";
+import Title from "../Labels/Title";
+import MonthlyEvolutionCard from "../MonthlyEvolutionCard";
 import TotalRecipesCard from "../TotalRecipesCard";
 
 import * as Styles from "./styles";
 
 const GeneralAnalysisOfOrders = () => {
   return (
-    <Styles.Teste>
+    <Styles.GeneralAnalysisOfOrders>
       <Styles.LineFlex>
         <TotalRecipesCard />
         <ApprovedFormulasCard />
@@ -21,7 +24,10 @@ const GeneralAnalysisOfOrders = () => {
         <ActiveCitiesRejectedCard />
         <ApprovedCitiesCard />
       </Styles.LineFlex>
-    </Styles.Teste>
+      <Title title="ANALISE - GERAL VENDAS" />
+      <GeneralSalesCard />
+      <MonthlyEvolutionCard />
+    </Styles.GeneralAnalysisOfOrders>
   );
 };
 export default GeneralAnalysisOfOrders;

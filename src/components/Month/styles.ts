@@ -9,6 +9,11 @@ export const Month = styled.div`
     border-radius: 8px;
     flex-direction: column;
     padding: 1rem;
+
+    @media (max-width: 1040px) {
+      width: 100%;
+      max-width: 100%;
+    }
   `}
 `;
 
