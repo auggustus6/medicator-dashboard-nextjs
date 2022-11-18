@@ -7,7 +7,7 @@ export default {
       medium: "1.6rem",
       large: "1.8rem",
       xlarge: "2.0rem",
-      xxlarge: "2.8rem",
+      xxlarge: "2.6rem",
       xxxlarge: "3.6rem",
       huge: "6rem",
       xhuge: "10rem",
@@ -16,9 +16,8 @@ export default {
     },
   },
   colors: {
-    dark: "#121212",
+    grayLigth: "#6b6b6b",
+    gray: "#2c2c2c",
     white: "#FFF",
-    button: "#00a6de",
-    btnHover: "#00aaff",
   },
 } as const;

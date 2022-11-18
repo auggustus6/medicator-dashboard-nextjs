@@ -6,7 +6,9 @@ import {
 } from "styled-components";
 
 type GlobalStylesProps = {
-  removeBg?: boolean;
+  theme: {
+    removeBg?: boolean;
+  }
 };
 
 const GlobalStyles: GlobalStyleComponent<
@@ -35,7 +37,7 @@ html {
         background: ${theme.colors.white};
         font-family: ${theme.font.family};
         font-size: ${theme.font.sizes.medium};
-        color: ${theme.colors.dark};
+        color: ${theme.colors.gray};
     `}
   `;
 
