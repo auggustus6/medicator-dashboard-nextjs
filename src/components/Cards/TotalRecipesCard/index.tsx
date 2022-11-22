@@ -1,4 +1,4 @@
-import LineChart from "../LineChart";
+import LineChart from "../../Charts/LineChart";
 import * as Styles from "./styles";
 
 const TotalRecipesCard = () => {
