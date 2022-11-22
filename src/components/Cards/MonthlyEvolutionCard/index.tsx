@@ -1,6 +1,5 @@
-import BarChart from "../BarChart";
-import H3 from "../Labels/H3";
-
+import BarChart from "../../Charts/BarChart";
+import H3 from "../../Labels/H3";
 import * as Styles from "./styles";
 
 const MonthlyEvolutionCard = () => {

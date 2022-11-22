@@ -1,5 +1,5 @@
-import HorizontalBarChart from "../HorizontalBarChart";
-import H3 from "../Labels/H3";
+import HorizontalBarChart from "../../Charts/HorizontalBarChart";
+import H3 from "../../Labels/H3";
 import * as Styles from "./styles";
 
 const ActiveCitiesRejectedCard = () => {

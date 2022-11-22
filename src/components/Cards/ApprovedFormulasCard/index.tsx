@@ -1,4 +1,4 @@
-import PieChart from "../PieChart";
+import PieChart from "../../Charts/PieChart";
 import * as Styles from "./styles";
 
 const ApprovedFormulasCard = () => {

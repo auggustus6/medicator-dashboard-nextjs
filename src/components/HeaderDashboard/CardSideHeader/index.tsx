@@ -2,7 +2,7 @@ import City from "../City";
 import Month from "../Month";
 import * as Styles from "./styles";
 
-const CardSide = () => {
+const CardSideHeader = () => {
   return (
     <Styles.CardSide>
       <City />
@@ -11,4 +11,4 @@ const CardSide = () => {
   );
 };
 
-export default CardSide;
+export default CardSideHeader;

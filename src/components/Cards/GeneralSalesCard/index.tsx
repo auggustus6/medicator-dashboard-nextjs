@@ -1,5 +1,5 @@
-import H3 from "../Labels/H3";
-import LineChart2 from "../LineChart2";
+import LineChart2 from "../../Charts/LineChart2";
+import H3 from "../../Labels/H3";
 import * as Styles from "./styles";
 
 const GeneralSalesCard = () => {

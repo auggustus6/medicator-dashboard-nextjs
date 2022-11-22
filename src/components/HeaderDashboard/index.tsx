@@ -1,5 +1,5 @@
-import CardHeader from "../CardHeader";
-import CardSide from "../CardSide";
+import CardHeader from "./CardHeader";
+import CardSideHeader from "./CardSideHeader";
 import * as Styles from "./styles";
 
 interface DataProps {
@@ -21,7 +21,7 @@ const HeaderDashboard = ({ data }: DataProps) => {
       <CardHeader title="Especialidade" content={data?.especialidade} />
       <CardHeader title="Consultor" content={data?.consultor} />
       <Styles.CityAndMonth>
-        <CardSide />
+        <CardSideHeader />
       </Styles.CityAndMonth>
     </Styles.HeaderDashboard>
   );
