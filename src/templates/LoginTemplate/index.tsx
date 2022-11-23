@@ -1,8 +1,16 @@
+import * as Styles from "./styles";
+import { UserCircle } from "phosphor-react";
+
 const Login = () => {
   return (
-    <div>
-      <h1>Login</h1>
-    </div>
+    <Styles.Intro>
+      <img src="/img/bg.png" alt="" />
+      <Styles.Fomulary>
+        <UserCircle size={80} />
+        <input type="text" />
+        <input type="password" />
+      </Styles.Fomulary>
+    </Styles.Intro>
   );
 };
 
