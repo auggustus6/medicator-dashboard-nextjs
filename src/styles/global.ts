@@ -8,7 +8,7 @@ import {
 type GlobalStylesProps = {
   theme: {
     removeBg?: boolean;
-  }
+  };
 };
 
 const GlobalStyles: GlobalStyleComponent<
@@ -33,10 +33,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
     ${({ theme }) => css` body {
         background: ${theme.colors.white};
         font-family: ${theme.font.family};
-        font-size: ${theme.font.sizes.medium};
         color: ${theme.colors.gray};
     `}
   `;

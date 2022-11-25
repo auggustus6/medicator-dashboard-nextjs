@@ -8,6 +8,7 @@ export const ContainerIntro = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background: #08d57f;
 
   @media (max-width: 425px) {
     img {
@@ -63,10 +64,15 @@ export const Form = styled.form`
     border: 1px solid gray;
   }
 
+  input::placeholder {
+    font-size: 1.4rem;
+    color: ${(p) => p.theme.colors.grayLigth};
+  }
+
   button {
     padding: 1.6rem 3.2rem;
     border-radius: 50px;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 3.2rem;
     font-weight: 500;
     background: #04ab65;
@@ -88,6 +94,7 @@ export const Box = styled.div`
   display: flex;
   border-radius: 8px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  background: #fff;
 
   @media (max-width: 1024px) {
     max-width: 80rem;

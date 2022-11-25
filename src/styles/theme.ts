@@ -1,6 +1,6 @@
 export default {
   font: {
-    family: "'Saira', sans-serif",
+    family: "'Inter', sans-serif",
     sizes: {
       small: "1.0rem",
       xsmall: "1.2rem",
