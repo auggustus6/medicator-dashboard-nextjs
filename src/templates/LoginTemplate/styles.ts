@@ -33,7 +33,7 @@ export const Icon = styled.div`
   justify-content: center;
 `;
 
-export const Form = styled.form`
+export const MyForm = styled.form`
   display: flex;
   max-width: 40rem;
   width: 100%;
