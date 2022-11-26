@@ -66,7 +66,7 @@ export const Form = styled.form`
 
   input::placeholder {
     font-size: 1.4rem;
-    color: ${(p) => p.theme.colors.grayLigth};
+    color: ${(p) => p.theme.colors.gray};
   }
 
   button {
