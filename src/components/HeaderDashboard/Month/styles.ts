@@ -5,7 +5,7 @@ export const Month = styled.div`
     display: flex;
     max-width: 50rem;
     width: 100%;
-    border: 1px solid ${theme.colors.grayLigth};
+    border: 1px solid ${theme.colors.gray};
     border-radius: 8px;
     flex-direction: column;
     padding: 1rem;
@@ -24,7 +24,7 @@ export const Content = styled.div`
 
     p {
       color: ${theme.colors.white};
-      font-size: ${theme.font.sizes.xsmall};
+      font-size: ${theme.font.sizes.xxsmall_xs};
       font-weight: 600;
       text-align: center;
     }

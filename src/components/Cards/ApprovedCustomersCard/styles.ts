@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ClientApprovedCard = styled.div`
   ${({ theme }) => css`
-    border: 1px solid ${theme.colors.grayLigth};
+    border: 1px solid ${theme.colors.gray};
     border-radius: 8px;
     padding: 1rem;
     flex: 1;

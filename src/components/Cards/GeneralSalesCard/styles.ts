@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ContainerTotalSalesCard = styled.div`
   ${({ theme }) => css`
-    border: 1px solid ${theme.colors.grayLigth};
+    border: 1px solid ${theme.colors.gray};
     border-radius: 8px;
     display: flex;
     flex: 1;

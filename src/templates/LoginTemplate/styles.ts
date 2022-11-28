@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme";
 
 export const ContainerIntro = styled.div`
   border-radius: 8px;
@@ -8,7 +9,7 @@ export const ContainerIntro = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: #08d57f;
+  background: ${theme.colors.primary};
 
   @media (max-width: 425px) {
     img {
@@ -26,7 +27,7 @@ export const ContainerIntro = styled.div`
 export const Icon = styled.div`
   width: 10rem;
   height: 10rem;
-  background: #06c575;
+  background: ${theme.colors.secondary};
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -75,7 +76,7 @@ export const MyForm = styled.form`
     font-size: 1.8rem;
     line-height: 3.2rem;
     font-weight: 500;
-    background: #04ab65;
+    background: ${theme.colors.secondary};
     color: #fff;
     cursor: pointer;
     outline: none;
@@ -83,7 +84,7 @@ export const MyForm = styled.form`
   }
 
   button:hover {
-    background: #06c575;
+    background: ${theme.colors.primary};
   }
 `;
 

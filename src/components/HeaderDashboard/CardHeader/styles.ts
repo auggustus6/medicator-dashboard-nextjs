@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const CardDoctor = styled.div`
   ${({ theme }) => css`
-    border: 1px solid ${theme.colors.grayLigth};
+    border: 1px solid ${theme.colors.gray};
     border-radius: 8px;
     padding: 1rem;
     display: flex;
@@ -18,7 +18,7 @@ export const Title = styled.div`
   justify-content: flex-start;
   ${({ theme }) => css`
     h4 {
-      font-size: ${theme.font.sizes.medium};
+      font-size: ${theme.font.sizes.large_h4};
     }
   `}
 `;
@@ -26,10 +26,10 @@ export const Title = styled.div`
 export const Content = styled.div`
   ${({ theme }) => css`
     p {
-      font-size: ${theme.font.sizes.large};
+      font-size: ${theme.font.sizes.large_h4};
       text-align: center;
       font-weight: 600;
-      color: ${theme.colors.grayLigth};
+      color: ${theme.colors.gray};
     }
   `}
 `;

@@ -1,8 +1,8 @@
 import * as Styles from "./styles";
 import { UserCircle } from "phosphor-react";
-import { myAlert } from "../../utils/myAlert";
+import { customSwal } from "../../utils/myAlert";
 import { useState } from "react";
-import SendeCode from "./components/code";
+import SendCode from "./components/code";
 
 const Login = () => {
   const stages = [
@@ -14,15 +14,12 @@ const Login = () => {
 
   const handle = (e: any) => {
     e.preventDefault();
-
-    myAlert({
-      position: "top-end",
+    customSwal({
+      text: "Teste",
       icon: "error",
-      title: "Your work has been saved",
-      showConfirmButton: false,
-      timer: 1500,
+      title: "teste",
+      confirmButtonText: "confim",
     });
-
     setStage(stages[1].stage);
   };
   return (
@@ -30,7 +27,7 @@ const Login = () => {
       {stage === "login" && (
         <Styles.ContainerIntro>
           <Styles.Box>
-            <img src="/img/bg.png" alt="" />
+            <img src="/img/bg1.svg" alt="" />
             <Styles.Fomulary>
               <Styles.Icon>
                 <UserCircle size={80} color="#fff" />
@@ -44,7 +41,7 @@ const Login = () => {
           </Styles.Box>
         </Styles.ContainerIntro>
       )}
-      {stage === "sendCode" && <SendeCode />}
+      {stage === "sendCode" && <SendCode />}
     </>
   );
 };
